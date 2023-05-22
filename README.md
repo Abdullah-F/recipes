@@ -1,5 +1,5 @@
 # How to run
-- from the master branch run `rails s`
+- from the master branch run `rails s`, you might need to run `bundle install` first.
 - go to [index page](http://localhost:3000/recipes) to view all recipes avaialble.
 - to view a single recipe details click on the show link in the page to go to the view page.
 
