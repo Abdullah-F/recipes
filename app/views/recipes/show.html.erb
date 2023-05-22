@@ -1,0 +1,12 @@
+<div>
+  <h3> <%= @recipe.title %> </h3>
+  <p> <b>made for you by:</b> <%= @recipe.chef_name %>
+  <br>
+  <br>
+  <img src="<%= @recipe.image_url %>">
+  <br>
+  <%= @recipe.description_html %>
+  <br>
+  <p> <b>tags:</b> <%= @recipe.tags %> </p>
+</div>
+<br><br>

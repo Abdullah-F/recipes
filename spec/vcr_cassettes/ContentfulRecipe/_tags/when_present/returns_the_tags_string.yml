@@ -1,0 +1,90 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://cdn.contentful.com/spaces/kk2bw5ojx476/environments/master/entries?content_type=recipe&limit=10&skip=0&sys.id=437eO3ORCME46i02SeCW46
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Contentful-User-Agent:
+      - sdk contentful.rb/2.17.0; platform ruby/2.7.5; os macOS/21;
+      Authorization:
+      - Bearer 7ac531648a1b5e1dab6c18b0979f822a5aad0fe5f1109829b8a197eb2be4b84c
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - close
+      Host:
+      - cdn.contentful.com
+      User-Agent:
+      - http.rb/5.1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - close
+      Content-Length:
+      - '1035'
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Cf-Environment-Id:
+      - master
+      Cf-Environment-Uuid:
+      - 3e111988-d2b3-4647-a0a8-ed1215cbd839
+      Cf-Organization-Id:
+      - 0OxgeKaTWSWzTukWE0scEe
+      Cf-Space-Id:
+      - kk2bw5ojx476
+      Etag:
+      - W/"13462305234869464261"
+      X-Contentful-Route:
+      - "/spaces/:space/environments/:environment/entries"
+      X-Content-Type-Options:
+      - nosniff
+      Contentful-Api:
+      - cda
+      Content-Encoding:
+      - gzip
+      Server:
+      - Contentful
+      X-Contentful-Region:
+      - us-east-1
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept,Accept-Language,Authorization,Cache-Control,Content-Length,Content-Range,Content-Type,DNT,Destination,Expires,If-Match,If-Modified-Since,If-None-Match,Keep-Alive,Last-Modified,Origin,Pragma,Range,User-Agent,X-Http-Method-Override,X-Mx-ReqToken,X-Requested-With,X-Contentful-Version,X-Contentful-Content-Type,X-Contentful-Organization,X-Contentful-Skip-Transformation,X-Contentful-User-Agent,X-Contentful-Enable-Alpha-Feature,cf-resource-resolution
+      Access-Control-Expose-Headers:
+      - Etag
+      Access-Control-Max-Age:
+      - '86400'
+      Access-Control-Allow-Methods:
+      - GET,HEAD,OPTIONS
+      Via:
+      - 1.1 varnish, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Mon, 22 May 2023 10:35:59 GMT
+      Age:
+      - '45785'
+      X-Served-By:
+      - cache-ewr18176-EWR, cache-mxp6976-MXP
+      X-Cache-Hits:
+      - 1, 1
+      X-Timer:
+      - S1684751760.847160,VS0,VE1
+      X-Cache:
+      - HIT
+      X-Contentful-Request-Id:
+      - 6203b34e-0b2a-43fe-bdbc-5c0f12b8cc0f
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA71XS3PbNhC+91cgPPQkU3yT4s1V3TRtHNeRPZ5pm8lA4JKERQI0AMmhPfnvXZByYqd+trFndKDAxe63++2Ll47utZNfOqbvwMmdXaVo73yeOEYa2ji5P3H0indO7k2chrfc4BE+cgMtXvvr0mnB0IIaOuiglT38gNe3WnVHGaq9/MbKWy5WjlUoVkej3cUgiIoLBLFaBcvzWJ5+itLE+YzahtMoTOEgPHg/39+LEu4FC5ifRAne2ULfE0b1+JcpoAaKXYTqBJ6f7Xjxjpce+WEeBrkXufEs/BPF1h3Cvl0sySPfTSPfioHYcCVFCwL1ffFjANRSbUB9BfBvr/auXbZ+KNhwzaVw8hBxSmFQ6xiAhyM0vya+jYgCxpE1q7mRjDaWQBA7xwtLYMmhKUZquRlezRXXXU/mNWcrEISKgrznDP4259zU5A+gmvxIdtW6WjeULGhDC/Stq6WRj2FwV2swVwzG7S/9kbzYLGS/5+2faZBSZyOXiFMqDogszeKJU4BmindmiMoVRLaFiKknJgSjVIAiLdI6GVArzmo8li01Enqi6ZoBKaVqCSXnXAguKmIUL4EZSmRJCmg443KtCRfE1FwTKWCnk4YsFeUaXHICRHdSCsINkRs0hiZgsNXZsBhJtKQrsu4I4NueNEg9KZTsrPpKykKA1iM4DWqDV4mhouoJ3YZT23ASdF1UmhcDWpTZcAQgEAaGBw2XpGzoxr5Bw0xinFzyM/qDeBDzoLh4ReZSriZEQUM/jRZBnMr+lc38GsrHUHVVKUMWv+v1658yuWT08KQ98+hhcraaDzm1LeeHU/OGvsR/W21koi6O31RvXlfsYHe/Osyswicqqo7LugmyoqRwnJyzk8WZ9s5Qzwf8YQEI1qwxeay/o/2X7UZ3uPmEbhSkeRC7WRTf341uiD1TN8Iu//+7EabLg61I0NZ2oqpZY1GTUsHQvV5yitye7k+hbZZ7oRv70X20RbmPYoEbp94zDpHge9A2NI2HRsiWt9+kGObHBuvuhXm7vRs8hbckj0M3Gwm5e/hjuXmZm6YDvc9Ubt+FtyeUWw20MTWudbZxjnP6ZZvlHevAF/audod7Vjc/j2I39oad7G72wutiz8QeNsvHbFuL34/9KJ2RX0FJ4qXpTuoXGfXSsswgndElW3qQMA+WpVeGy2TG0LGS20Xt0lkrXL2d6ZS3tALtMlNSu11pV4CZXt+Op7dHdlous6yMQi9gZeFnUTQLII4yVoDv0yCO4+kW3UeL7uNj0LmnXYUIC1z3eTNMXc0vEGwQel6S4Ty2UO3xOS9Mbb8SAvxOqIFXNS7OSebZFmP9ezeOgP8K4MacGq1OTzuwo8duBj/8A/0bxzvRDAAA
+  recorded_at: Mon, 22 May 2023 10:35:59 GMT
+recorded_with: VCR 6.1.0

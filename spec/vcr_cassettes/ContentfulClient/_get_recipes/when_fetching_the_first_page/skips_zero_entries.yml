@@ -1,0 +1,90 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://cdn.contentful.com/spaces/kk2bw5ojx476/environments/master/entries?content_type=recipe&limit=2&skip=0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      X-Contentful-User-Agent:
+      - sdk contentful.rb/2.17.0; platform ruby/2.7.5; os macOS/21;
+      Authorization:
+      - Bearer 7ac531648a1b5e1dab6c18b0979f822a5aad0fe5f1109829b8a197eb2be4b84c
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - close
+      Host:
+      - cdn.contentful.com
+      User-Agent:
+      - http.rb/5.1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - close
+      Content-Length:
+      - '1422'
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Cf-Environment-Id:
+      - master
+      Cf-Environment-Uuid:
+      - 3e111988-d2b3-4647-a0a8-ed1215cbd839
+      Cf-Organization-Id:
+      - 0OxgeKaTWSWzTukWE0scEe
+      Cf-Space-Id:
+      - kk2bw5ojx476
+      Etag:
+      - W/"4023899280144307739"
+      X-Contentful-Route:
+      - "/spaces/:space/environments/:environment/entries"
+      X-Content-Type-Options:
+      - nosniff
+      Contentful-Api:
+      - cda
+      Content-Encoding:
+      - gzip
+      Server:
+      - Contentful
+      X-Contentful-Region:
+      - us-east-1
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Accept,Accept-Language,Authorization,Cache-Control,Content-Length,Content-Range,Content-Type,DNT,Destination,Expires,If-Match,If-Modified-Since,If-None-Match,Keep-Alive,Last-Modified,Origin,Pragma,Range,User-Agent,X-Http-Method-Override,X-Mx-ReqToken,X-Requested-With,X-Contentful-Version,X-Contentful-Content-Type,X-Contentful-Organization,X-Contentful-Skip-Transformation,X-Contentful-User-Agent,X-Contentful-Enable-Alpha-Feature,cf-resource-resolution
+      Access-Control-Expose-Headers:
+      - Etag
+      Access-Control-Max-Age:
+      - '86400'
+      Access-Control-Allow-Methods:
+      - GET,HEAD,OPTIONS
+      Via:
+      - 1.1 varnish, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Mon, 22 May 2023 10:21:21 GMT
+      Age:
+      - '78516'
+      X-Served-By:
+      - cache-ewr18181-EWR, cache-mxp6977-MXP
+      X-Cache-Hits:
+      - 0, 1
+      X-Timer:
+      - S1684750882.978957,VS0,VE1
+      X-Cache:
+      - HIT
+      X-Contentful-Request-Id:
+      - ea1f5bee-b9f4-4438-996a-63ee87961b4f
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA81Xa2/bNhT9vl/B6cMehS3rZb2KYUizLA2yNm2dNksfMCiKshjLpEJScdWg/32XkpM6WVMnHZoOBgyLuvfy8D4Oj88t1SorPbd0W1MrtbakxK31cWBpoXFlpcHAUnNWW6kzsCq2YNpKvYHFNF2A15tza0E1zrHGXQg8M4vvwHsVVNWYQNTza5v8xfjcMvH4/LDfdtIZQuAcMMznXrYci5P3QRRaHyFatxrkh7EmWdjMdyd7M++4bXZ3Dhbgs0K+w7Vs4ZFIijXNtwCp5TluPHTGQyc6dP3Uj1PPs/2x+xrMmhpgf9YscFPHtZM4NGaUnzEp+IJyiHd5jg7QAitN5ScA/z7VzpqzOYekZ0wxwbscEsE1RO0TsDlD22vmq4xIShgUzUSuBMGVqR/lw5cTU7+C0SrvK8t09+qohLKh7ZLmOZZoV7Kqorl5poqiJdOl+S1li55JWJFnVKGf0COsWAVnrEuhxW0quaUU1ReVDN2/H5PTg0d/Hm8db++q/WYmnhzvd4gBr5CMAsIojgdWThWRrNZddqwH19C5jvsgRS8BZ04rRphoFCI9cMxzNBMiR6cNrphuUQb1zx+iBZ5TRGTDSdkiwZEuKRKNViynyPgIQVvjCN+rt4yblw8RzuEtB2uJ9FIgxmeS5gxKpVABaxgVFT6DH7WJ/SPaM7EZ4MGKDgwqk8L6MoVdJhFW4KeWlGpk6i6hdZAWxrorRn+WQQcsMxk3IIxLxWalHiBJCwhYAhTEhaZ2l4rpdIFbwTlmik6n188oiu7IXTbMVpiUjAISs9hUmi2g+wGuZKpuB5CIKofWyaRYcgg8WzVHj2s6tdG2EHODo8Lve5iUn4j2R9P9/dRv7uCLAe2Gx39xlrenkzhw4ub58/mctswL59AZ76A57pNWxidtUpIndGf2PFjg/d3TvYPjo/DTVG+mlcBJvchOfG8DraybfSNacb8DrRyKokETjGfoGeaUyp5KHjUayLFFh8KwZI6eMbgjvpZGgngSBIcvXj8NvbANjtpguzlYbF2jkcSBK+oqjXSo6h4VTChGtaibCuZtj+cMc5QzVfZwDccPJSMlUjXjMCvdKJImAxKESepjmMa/cF2xjy6xRhC6YHKBKBfNrDTDJuFWZBwx/bNCqsQ1TFrWaASDPW+HShT6KufY6IiiEsN0SgqDOWMcMraeUgNG0rqCSxKGGSb4rdVDemv1+Ps5/gS4w6OhMgNDhIY3Oo7ClaGDdo1FTWTeaMmAeYFUz+gMoMvL5GSNBKbqLodaAvMwbl+WtIaSrvgFQnc8l8MOgs96koXtOBJAt5AQjjF43kAi6M2rvT92Dt79Umpdq3Q0Wi6XdgtkDem3iViMlliT8vez3148+XB0tCyO8lfqV0MVcA9yUjVQdHMz9ZN6v6LkBhq7gyjxojQY20kUfJk9rpj9n9kDroONioTjhREk0GyY93XsVcP91u4GVrms3YWS+YKgTFIntN1og6D0182+Xe1uowEn+y/dIInRYyoFcscB8tAQ51noekHiJFkQkzAp4jDBBSVZFGdh7MRDD4i7YEZDnluNhD8F1mhkaIoqm+gCG8GnbE71aF24jz6f3lFCHDx2nYz4uRuD+El8FzbNiiApMPG9aLSCODUQpwBxOvWmt8Bon9QzwJkb5q06PlDsA0D23Dh2fGAKA9gsL1muSyt1HQ/ui5IagWWlcE4jSs0pn/bN+d9gXBH3/d6jk5qa0bhfeXODAr9Lk0fp2LejeANB+etm37/JvcBBIMXF0I+CIiaUUJ9EbjEuSE4SP3H8hDpOkSVG6d29tz+f1ZHjOAkl49AJ4yDzowI+OAMlH4bQX26UdL0NyKa3QnZTR7tJEPnR13X0XTf/Uh+DUv/hH/CihJQ/EAAA
+  recorded_at: Mon, 22 May 2023 10:21:21 GMT
+recorded_with: VCR 6.1.0
