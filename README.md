@@ -1,24 +1,8 @@
-# README
+# How to run
+- from the master branch run `rails s`
+- go to `http://localhost:30/recipes` to view all recipes avaialble.
+- to view a single recipe details click on the show link in the page to go to the view page.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# How to run tests
+- run `rspec` from the root directory of the projects.
+- no integration or controller tests written for this project as it is small and was easy to test that manually.
